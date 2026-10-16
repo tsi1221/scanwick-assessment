@@ -1,32 +1,36 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Overview
+Describe the purpose of the application and what a user can do with it.
 
-Currently, two official plugins are available:
+## Features
+List the features you have actually implemented, such as:
+- Borrower information display
+- Search, filtering, and sorting
+- Responsive desktop and mobile layouts
+- Light and dark themes
+- Loading, error, and retry states
+- Automatic data refresh
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+List the technologies and tools used in your project, such as React, TypeScript, Vite, CSS, and your testing tools.
 
-## React Compiler
+## Prerequisites
+Explain which versions of Node.js and npm are required.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
+Explain how to clone the repository, enter the project directory, and install dependencies.
 
-## Expanding the Oxlint configuration
+## Running the Application
+Document the command used to start the development server and the local address where the application can be viewed.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Testing
+Explain how to run the tests you have written and how you verified date and time formatting across different time zones.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## Technical Decisions
+Describe how you handle missing values, date formatting, request failures, data refreshing, and accessibility.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Limitations
+Due to power interruptions, I was unable to complete all planned features and testing within the assessment period. I would prioritize completing the remaining requirements and verifying the application's reliability and responsiveness.
+
+## Future Improvements
+Mention realistic improvements you would make after completing and testing the required features.
